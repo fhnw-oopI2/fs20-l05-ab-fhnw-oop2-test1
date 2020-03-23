@@ -30,11 +30,7 @@ public final class TransactionList {
 	 * @return All transactions made in this year
 	 */
 	public List<Transaction> transactionsInYear(int year) {
-        return allTransactions
-				.stream()
-				.filter(t -> t.getYear() == year)
-				.sorted(Comparator.comparing(Transaction::getValue))
-				.collect(Collectors.toList());
+        return null;
     }
 
 	// TODO: AB03
