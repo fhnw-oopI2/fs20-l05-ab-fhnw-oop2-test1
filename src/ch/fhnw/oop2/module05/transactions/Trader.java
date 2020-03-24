@@ -2,7 +2,6 @@ package ch.fhnw.oop2.module05.transactions;
 
 /**
  * Diese Klasse modelliert einen Trader.
- *
  */
 public final class Trader {
 	
